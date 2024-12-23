@@ -1,3 +1,13 @@
+"""
+This script processes the provided Jester dataset splits as follows:
+- Splits the train set into train and validation subsets;
+- Converts the validation set into the test set;
+- Maps string labels to numeric labels using jester-v1-labels.csv.
+
+Author(s): Sana Asghari, Jort van Leenen
+License: GNU General Public License v3.0 (GPLv3)
+"""
+
 from pathlib import Path
 from sklearn.model_selection import train_test_split
 
